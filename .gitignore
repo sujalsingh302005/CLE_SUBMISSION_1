@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data and logs (large / regenerable)
+data/raw/*
+data/processed/*
+logs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!logs/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
